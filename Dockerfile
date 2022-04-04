@@ -4,7 +4,7 @@ FROM ruby:2.7.4
 ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn
 ENV DEBCONF_NOWARNINGS=yes
 
-# node.jsと必要なライブラリのインストトール
+# node.jsと必要なライブラリのインストール
 RUN apt-get update -qq && apt-get install -y nodejs postgresql-client \
             curl apt-transport-https wget
 
