@@ -6,7 +6,7 @@ ENV DEBCONF_NOWARNINGS=yes
 
 # node.jsと必要なライブラリのインストール
 RUN apt-get update -qq && apt-get install -y nodejs postgresql-client \
-            curl apt-transport-https wget
+            curl apt-transport-https wget imagemagick
 
 # yarnのインストール
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \

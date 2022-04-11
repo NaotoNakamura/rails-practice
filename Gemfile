@@ -7,6 +7,7 @@ ruby '2.7.4'
 gem 'rails', '~> 6.1.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
+gem 'fog-aws'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
@@ -22,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.12'
 gem 'faker'
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
